@@ -1,7 +1,10 @@
 const Covid = require("./Covid");
+const Grid = require("./Grid");
 
-// const Grid = require("./js/Grid");
+const berta = new Grid(3, 3);
 
-const example = new Covid(1, 0, false);
+const playTable = berta.boxes;
 
-console.log(example);
+console.table(playTable);
+
+// console.log(berta.boxes[0][0]);
