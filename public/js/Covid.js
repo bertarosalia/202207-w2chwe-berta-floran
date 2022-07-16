@@ -9,4 +9,8 @@ class Covid {
     this.isAlive = isAlive;
   }
 }
+
+const prueba = new Covid(1, 0, false);
+console.log(prueba);
+
 module.exports = Covid;
