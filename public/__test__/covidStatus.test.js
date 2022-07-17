@@ -8,7 +8,7 @@ describe("Given a function covidStatus that receives parameters", () => {
       const covidStatus = () => {
         if ((isAliveCovid === true && counter < 2) || counter > 3) {
           isAliveCovid = false;
-        } else if ((isAliveCovid === false && counter === 2) || counter === 3) {
+        } else if ((isAliveCovid === true && counter === 2) || counter === 3) {
           isAliveCovid = true;
         }
         return isAliveCovid;
