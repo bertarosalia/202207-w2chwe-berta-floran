@@ -6,11 +6,7 @@ describe("Given an object Grid that receives properties and methods", () => {
       const columns = 1;
       const rows = 1;
 
-      const expectedTotal = {
-        columns: 1,
-        rows: 1,
-        boxes: [[{ positionY: 1, positionX: 0, isAlive: false }]],
-      };
+      const expectedTotal = new Grid(columns, rows);
 
       const expectedReceived = new Grid(columns, rows);
 

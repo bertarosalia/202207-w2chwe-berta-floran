@@ -19,6 +19,4 @@ class Grid {
   }
 }
 
-const prueba = new Grid(1, 1);
-console.log(prueba);
 module.exports = Grid;
